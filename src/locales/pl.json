@@ -1,0 +1,205 @@
+{
+	"main": {
+		"content": "Witamy w Lidze Piłkarskiej",
+		"text": "U nas znajdziesz mecze lepsze od wszystkiego, nawet od pitcy."
+	},
+	"other": {
+		"loading": "ładowanie...",
+		"error": "Błąd"
+	},
+	"logging": {
+		"login": "Zaloguj się",
+		"logout": "Wyloguj się",
+		"password": "Hasło",
+		"placeholderLogin": "Podaj login",
+		"placeholderPassword": "Podaj hasło",
+		"welcomeText": "Jesteś zalogowany jako:",
+		"loggingError": "Błędne dane"
+	},
+	"nav": {
+		"main": "Strona główna",
+		"kluby": "Kluby",
+		"zawodnicy": "Zawodnicy",
+		"klub_zawodnik": "Zawodnicy w klubach",
+		"mecze": "Wyniki",
+		"sezony": "Sezony"
+	},
+	"list": {
+		"actions": {
+			"title": "Akcje",
+			"details": "Szczegóły",
+			"edit": "Edytuj",
+			"delete": "Usuń"
+		}
+	},
+	"form": {
+		"actions": {
+			"return": "Powrót",
+			"edit": "Edytuj",
+			"cancel": "Anuluj",
+			"add": "Dodaj",
+			"save_changes": "Zapisz zmiany"
+		}
+	},
+	"validation": {
+		"fieldRequired": "Pole jest wymagane",
+		"format": "Niepoprawny format",
+        "max40": "Pole powinno zawierać do 40 znaków",
+        "max20": "Pole powinno zawierać do 20 znaków",
+        "2-3chars": "Pole musi zawierać od 2 do 3 znaków",
+		"numberRange": "Pole musi zawierać liczbę od 1 do 99",
+		"date": "Zła data",
+		"klub": "Wybierz inny klub"
+	},
+	"kluby": {
+		"fields": {
+			"Nazwa": "Nazwa klubu",
+			"Skrot": "Skrot",
+			"Kolor_stroju": "Kolor stroju",
+			"placeholderNazwa": "max 40 znaków",
+			"placeholderSkrot": "Od 2 do 3 znaków",
+			"placeholderKolor_stroju": "max 20 znaków"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Lista klubów",
+				"text": "Kluby zarejestrowane na naszej stronie:",
+				"btnLabel": "Dodaj klub"
+			},
+			"details": {
+				"pageTitle": "Szczegóły klubu"
+			},
+			"add": {
+				"pageTitle": "Dodaj klub"
+			},
+			"edit": {
+				"pageTitle": "Edytuj klub"
+			}
+		}
+	},
+	"zawodnicy": {
+		"fields": {
+			"Imie": "Imie",
+			"Nazwisko": "Nazwisko",
+			"Pozycja": "Pozycja",
+			"PositionSelect": "--Wybierz pozycję--",
+			"placeholderImie": "max 40 znaków",
+			"placeholderNazwisko": "max 40 znaków"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Lista zawodników",
+				"text": "Zawodnicy zarejestrowani na naszej stronie:",
+				"btnLabel": "Dodaj zawodnika"
+			},
+			"details": {
+				"pageTitle": "Szczegóły zawodnika"
+			},
+			"add": {
+				"pageTitle": "Dodaj zawodnika"
+			},
+			"edit": {
+				"pageTitle": "Edytuj zawodnika"
+			}
+		}
+	},
+	"klub_zawodnik": {
+		"fields": {
+			"Numer": "Numer",
+			"Od_kiedy": "Od kiedy",
+			"Do_kiedy": "Do kiedy",
+			"Klub": "Klub",
+			"Zawodnik": "Zawodnik",
+			"KlubSelect": "--Wybierz klub--",
+			"ZawodnikSelect": "--Wybierz zawodnika--",
+			"placeholderNumer": "Liczba od 1 do 99"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Zawodnicy w klubach",
+				"text": "Zawodnicy zarejestrowani na naszej stronie:",
+				"btnLabel": "Dodaj zawodnika do klubu"
+			},
+			"details": {
+				"pageTitle": "Historia zawodnika w klubie"
+			},
+			"add": {
+				"pageTitle": "Dodaj zawodnika do klubu"
+			},
+			"edit": {
+				"pageTitle": "Edytuj"
+			}
+		}
+	},
+	"wyniki": {
+		"fields": {
+			"Data_meczu": "Data meczu",
+			"Gospodarz": "Gospodarz",
+			"Gosc": "Gość",
+			"Gospodarze": "Gospodarze",
+			"Goscie": "Goście",
+			"Wynik": "Wynik",
+			"Sezon": "Sezon",
+			"Gole": "Gole",
+			"Asysty": "Asysty",
+			"Empty": "Brak zawodników do wyświetlenia",
+			"KlubSelect": "--Wybierz klub--",
+			"SezonSelect": "--Wybierz sezon--"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Wyniki meczów",
+				"text": "",
+				"btnLabel": "Dodaj wynik"
+			},
+			"details": {
+				"pageTitle": "Szczegóły meczu"
+			},
+			"add": {
+				"pageTitle": "Dodaj mecz"
+			},
+			"edit": {
+				"pageTitle": "Edytuj"
+			}
+		}
+	},
+	"sezony": {
+		"fields": {
+			"Klub": "Nazwa klubu",
+			"Nazwa_sezonu": "Nazwa sezonu",
+			"Data_rozpoczecia": "Data rozpoczęcia",
+			"Data_zakonczenia": "Data zakończenia",
+			"Gole": "Gole",
+			"Asysty": "Asysty",
+			"Bramki": "Bramki",
+			"Punkty": "Punkty",
+			"Mecze": "Mecze",
+			"Rezultaty": "Z-R-P",
+			"placeholderNazwa": "max 20 znaków"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Sezony",
+				"text": "",
+				"btnLabel": "Dodaj sezon"
+			},
+			"details": {
+				"pageTitle": "Szczegóły sezonu i statystyki"
+			},
+			"add": {
+				"pageTitle": "Dodaj sezon"
+			},
+			"edit": {
+				"pageTitle": "Edytuj"
+			}
+		},
+		"other": {
+			"scoresTable": "Brak meczów do wyświetlenia.",
+			"goalsTable": "Tu będzie lista najlepszych strzelców.",
+			"assistsTable": "Tu będzie lista najlepszych asystentów."
+		}
+	},
+	"validationMessage": {
+		"fieldRequired": "validationMessage.fieldRequired"
+	}
+}

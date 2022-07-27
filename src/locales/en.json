@@ -1,0 +1,207 @@
+{
+	"main": {
+		"content": "Welcome to Liga Piłkarska",
+		"text": "Here you will find matches better than anything, even pizza."
+	},
+	"other": {
+		"loading": "loading...",
+		"error": "Error"
+	},
+	"logging": {
+		"login": "Log in",
+		"logout": "Log out",
+		"password": "Password",
+		"placeholderLogin": "Enter login",
+		"placeholderPassword": "Enter password",
+		"welcomeText": "You are logged in as:",
+		"loggingError": "Incorrect"
+	},
+	"nav": {
+		"main": "Home page",
+		"kluby": "Clubs",
+		"zawodnicy": "Players",
+		"klub_zawodnik": "Players in clubs",
+		"mecze": "Scores",
+		"sezony": "Seasons"
+	},
+	"list": {
+		"actions": {
+			"title": "Actions",
+			"details": "Details",
+			"edit": "Edit",
+			"delete": "Delete"
+		}
+	},
+	"form": {
+		"actions": {
+			"return": "Back",
+			"edit": "Edit",
+			"cancel": "Cancel",
+			"add": "Add",
+			"save_changes": "Save changes"
+		}
+	},
+	"validation": {
+		"fieldRequired": "This field is required",
+		"format": "Incorrect format",
+		"max40": "This field requires max 40 characters",
+		"max20": "This field requires max 20 characters",
+		"2-3chars": "This field requires from 2 to 3 characters",
+		"numberRange": "This field requires number from 1 to 99",
+		"date": "Wrong date",
+		"klub": "Select other club"
+	},
+	"kluby": {
+		"fields": {
+			"Nazwa": "Club name",
+			"Skrot": "Short name",
+			"Kolor_stroju": "Kit color",
+			"placeholderNazwa": "max 40 characters",
+			"placeholderSkrot": "from 2 to 3 characters",
+			"placeholderKolor_stroju": "max 20 characters",
+			"placeholderImie": "kluby.fields.placeholderImie",
+			"placeholderNazwisko": "kluby.fields.placeholderNazwisko",
+			"SelectKlub": "kluby.fields.SelectKlub",
+			"SelectZawodnik": "kluby.fields.SelectZawodnik",
+			"KlubSelect": "kluby.fields.KlubSelect"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Clubs",
+				"text": "Clubs registered in our service:",
+				"btnLabel": "Add club"
+			},
+			"details": {
+				"pageTitle": "Club details"
+			},
+			"add": {
+				"pageTitle": "Add club"
+			},
+			"edit": {
+				"pageTitle": "Edit club"
+			}
+		}
+	},
+	"zawodnicy": {
+		"fields": {
+			"Imie": "First name",
+			"Nazwisko": "Last name",
+			"Pozycja": "Position",
+			"PositionSelect": "--Select position--",
+			"placeholderImie": "max 40 characters",
+			"placeholderNazwisko": "max 40 characters"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Players",
+				"text": "Players registered in our service:",
+				"btnLabel": "Add player"
+			},
+			"details": {
+				"pageTitle": "Player details"
+			},
+			"add": {
+				"pageTitle": "Add player"
+			},
+			"edit": {
+				"pageTitle": "Edit player"
+			}
+		}
+	},
+	"klub_zawodnik": {
+		"fields": {
+			"Numer": "Number",
+			"Od_kiedy": "From",
+			"Do_kiedy": "To",
+			"Klub": "Club",
+			"Zawodnik": "Player",
+			"KlubSelect": "--Select club--",
+			"ZawodnikSelect": "--Select player--",
+			"placeholderNumer": "Number between 1 and 99"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Players in clubs",
+				"text": "Zawodnicy zarejestrowani na naszej stronie:",
+				"btnLabel": "Add player to club"
+			},
+			"details": {
+				"pageTitle": "Player in club details"
+			},
+			"add": {
+				"pageTitle": "Add player to club"
+			},
+			"edit": {
+				"pageTitle": "Edit"
+			}
+		}
+	},
+	"wyniki": {
+		"fields": {
+			"Data_meczu": "Date and time",
+			"Gospodarz": "Home",
+			"Gosc": "Away",
+			"Gospodarze": "Home team",
+			"Goscie": "Away team",
+			"Wynik": "Score",
+			"Sezon": "Season",
+			"Gole": "Goals",
+			"Asysty": "Assists",
+			"Empty": "No players to display",
+			"KlubSelect": "--Select club--",
+			"SezonSelect": "--Select season--"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Match scores",
+				"text": "",
+				"btnLabel": "Add match"
+			},
+			"details": {
+				"pageTitle": "Match details"
+			},
+			"add": {
+				"pageTitle": "Add match"
+			},
+			"edit": {
+				"pageTitle": "Edit"
+			}
+		}
+	},
+	"sezony": {
+		"fields": {
+			"Klub": "Club name",
+			"Nazwa_sezonu": "Season name",
+			"Data_rozpoczecia": "Start date",
+			"Data_zakonczenia": "End date",
+			"Gole": "Goals",
+			"Asysty": "Assists",
+			"Bramki": "Goals",
+			"Punkty": "Points",
+			"Mecze": "Matches",
+			"Rezultaty": "W-D-L",
+			"placeholderNazwa": "max 20 characters"
+		},
+		"form": {
+			"list": {
+				"pageTitle": "Seasons",
+				"text": "",
+				"btnLabel": "Add season"
+			},
+			"details": {
+				"pageTitle": "Season details and statistics"
+			},
+			"add": {
+				"pageTitle": "Add season"
+			},
+			"edit": {
+				"pageTitle": "Edit"
+			}
+		},
+		"other": {
+			"scoresTable": "No matches to display.",
+			"goalsTable": "Here will be goals ranking",
+			"assistsTable": "Here will be assists ranking"
+		}
+	}
+}

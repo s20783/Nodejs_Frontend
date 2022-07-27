@@ -1,0 +1,61 @@
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <script type="application/javascript" src="/js/validationCommon.js"></script>
+    <link rel="icon" href="/images/ball2.png">
+    <title>Liga Piłkarska</title>
+</head>
+
+<body>
+<div class="content">
+    <header>
+        <a href="/" class="xd">
+            <img src="/images/ball2.png" alt="logo" width="180" height="153">
+        </a>
+        <h1>Liga Piłkarska</h1>
+
+        <% if(!loggedUser) { %>
+            <form class="form2" method="post" action="/login" novalidate>
+                <label for="loginNazwisko">Login: </label>
+                <input type="text" name="loginNazwisko" id="loginNazwisko" placeholder="<%= __('logging.placeholderLogin') %>"
+                       class="<%= (loginError) ? 'error-input' : '' %>">
+                <span id="errorNazwisko" class="errors-text"></span>
+
+                <label for="loginPassword"><%= __('logging.password') %>: </label>
+                <input type="text" name="loginPassword" id="loginPassword" placeholder="<%= __('logging.placeholderPassword') %>"
+                       class="<%= (loginError) ? 'error-input' : '' %>">
+                <span id="errorPassword" class="errors-text"></span>
+
+                <span id="loginErrors" class="errors-text"><%= (loginError) ? loginError : '' %></span>
+                <div class="form-buttons2">
+                    <input type="submit" value="<%= __('logging.login') %>" class="button-login"/>
+                </div>
+            </form>
+        <% } else { %>
+            <div class="logout">
+                <span><%= __('logging.welcomeText') %></span>
+                <p class="login-text"><%= loggedUser.Imie %> </p>
+                <p class="login-text"><%= loggedUser.Nazwisko %> </p>
+
+                <div class="form-buttons3">
+                    <a href="/logout" class="button-logout"><%= __('logging.logout') %></a>
+                </div>
+            </div>
+        <% } %>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/" class="<%= navLocation == 'main' ? 'active' : '' %>"><%= __('nav.main') %></a></li>
+            <li><a href="/kluby" class="<%= navLocation == 'kluby' ? 'active' : '' %>"><%= __('nav.kluby') %></a></li>
+            <li><a href="/zawodnicy"
+                   class="<%= navLocation == 'zawodnicy' ? 'active' : '' %>"><%= __('nav.zawodnicy') %></a></li>
+            <li><a href="/klub_zawodnik"
+                   class="<%= navLocation == 'klub_zawodnik' ? 'active' : '' %>"><%= __('nav.klub_zawodnik') %></a></li>
+            <li><a href="/wyniki" class="<%= navLocation == 'mecze' ? 'active' : '' %>"><%= __('nav.mecze') %></a></li>
+            <li><a href="/sezony" class="<%= navLocation == 'sezony' ? 'active' : '' %>"><%= __('nav.sezony') %></a>
+            </li>
+        </ul>
+    </nav>
